@@ -9,3 +9,14 @@ https://www.ibm.com/developerworks/cloud/library/cl-cloudmetering/
 https://pdfs.semanticscholar.org/6ad8/f007eb2542d7157e990519e2469ca27aa3d9.pdf
 
 클라우드 환경에서의 미터링 - https://www.slideshare.net/OnTheWheel/ss-4888251
+
+
+14. 미터링(Metering)
+ 14.1 개요
+  - 사용자가 제공받은 자원이나 서비스에 대해 가치를 측정하는 것. 그래서 비용 산정의 근거가 된다.
+
+ 14.2 Tenant-aware 미터링
+  - 멀티 테넌트 구조에서는 하드웨어, 데이터베이스, 애플리케이션 등이 공유될 수 있으며, 이렇게 공유된 자원에 대하여 각 테넌트 별로 사용량을 분리해내는 기술.
+
+ 14.3 서비스 지향(Service-oriented) 미터링
+  - 단순 하드웨어 미터링 만으로는 SaaS, PaaS에 대한 효율적인 비용 책정이 어려울 수 있으며 데이터베이스, 애플리케이션 플랫폼, 메시지 버스, 데이터 분석 엔진 등 다양한 서비스 구성 요소에 대한 미터링하는 것.
