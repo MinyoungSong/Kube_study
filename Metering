@@ -20,3 +20,6 @@ https://pdfs.semanticscholar.org/6ad8/f007eb2542d7157e990519e2469ca27aa3d9.pdf
 
  14.3 서비스 지향(Service-oriented) 미터링
   - 단순 하드웨어 미터링 만으로는 SaaS, PaaS에 대한 효율적인 비용 책정이 어려울 수 있으며 데이터베이스, 애플리케이션 플랫폼, 메시지 버스, 데이터 분석 엔진 등 다양한 서비스 구성 요소에 대한 미터링하는 것.
+
+
+Guide-2.0-Linguine-/Development-Guide/PaaS-TA_Java_서비스_미터링_개발_가이드.md
