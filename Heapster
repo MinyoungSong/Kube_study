@@ -6,6 +6,7 @@
     
   - Elasticsearch “sink” for Heapster. 
     - https://github.com/kubernetes/heapster/blob/master/docs/sink-configuration.md#elasticsearch
+    
     - Elasticsearch
       This sink supports monitoring metrics and events. To use the Elasticsearch sink add the following flag:
 
