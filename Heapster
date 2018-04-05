@@ -5,6 +5,7 @@
     - https://kubernetes.io/docs/tasks/debug-application-cluster/resource-usage-monitoring/
     
   - Elasticsearch “sink” for Heapster. 
+    - blog : https://www.aerisweather.com/blog/monitoring-kubernetes-elasticsearch/
     - https://github.com/kubernetes/heapster/blob/master/docs/sink-configuration.md#elasticsearch
     
     - Elasticsearch
