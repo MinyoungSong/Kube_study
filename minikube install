@@ -20,3 +20,8 @@ kubernetes-dashboard is running at https://192.168.64.2:8443/api/v1/proxy/namesp
 
 
 https://gist.github.com/sitkevij/b2e8fad3f1bf409d1ba5196cb5f52b55
+
+
+
+eval $(minikube docker-env)
+eval $(minikube docker-env -u)
