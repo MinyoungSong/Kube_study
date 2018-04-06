@@ -1,2 +1,8 @@
+
+[블로그]
+
 Kubernetes Log Analysis with Fluentd, Elasticsearch and Kibana
  - https://logz.io/blog/kubernetes-log-analysis/
+
+Shipping Kubernetes Logs to Elasticsearch with Filebeat
+ - https://www.elastic.co/blog/shipping-kubernetes-logs-to-elasticsearch-with-filebeat
