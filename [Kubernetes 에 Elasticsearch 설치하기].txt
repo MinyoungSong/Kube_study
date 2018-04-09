@@ -1,0 +1,22 @@
+[Kubernetes 에 Elasticsearch 설치하기] - https://chekkan.com/setting-up-elasticsearch-cluster-on-kubernetes-part-1/
+
+kubectl run elasticsearch --image=docker.elastic.co/elasticsearch/elasticsearch:6.2.1 --port=9200
+
+kubectl expose deployment elasticsearch --type=LoadBalance
+
+minikube service elasticsearch
+
+<구동 시 에러 발생>
+[2018-04-09T01:06:27,180][INFO ][o.e.n.Node               ] [fJZGv7U] starting ...
+[2018-04-09T01:06:27,590][INFO ][o.e.t.TransportService   ] [fJZGv7U] publish_address {172.17.0.6:9300}, bound_addresses {0.0.0.0:9300}
+[2018-04-09T01:06:27,627][INFO ][o.e.b.BootstrapChecks    ] [fJZGv7U] bound or publishing to a non-loopback address, enforcing bootstrap checks
+ERROR: [1] bootstrap checks failed
+[1]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-04-09T01:06:27,645][INFO ][o.e.n.Node               ] [fJZGv7U] stopping ...
+[2018-04-09T01:06:27,677][INFO ][o.e.n.Node               ] [fJZGv7U] stopped
+[2018-04-09T01:06:27,677][INFO ][o.e.n.Node               ] [fJZGv7U] closing ...
+[2018-04-09T01:06:27,739][INFO ][o.e.n.Node               ] [fJZGv7U] closed
+
+max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+	-> vm의 메모리 최대 설정을 수정해야 함.
+
