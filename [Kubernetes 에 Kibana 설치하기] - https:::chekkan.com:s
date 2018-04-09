@@ -1,7 +1,0 @@
-[Kubernetes 에 Kibana 설치하기] - https://chekkan.com/setting-up-elasticsearch-cluster-on-kubernetes-part-2-kibana/
-
-kubectl run kibana --image=docker.elastic.co/kibana/kibana:6.2.1 --env="ELASTICSEARCH_URL=http://elasticsearch:9200" --env="XPACK_SECURITY_ENABLED=true" --port=5601
-
-kubectl expose deployment kibana --type=LoadBalancer
-
-minikube service kibana
