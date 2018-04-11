@@ -2,7 +2,7 @@
 
 kubectl run elasticsearch --image=docker.elastic.co/elasticsearch/elasticsearch:6.2.1 --port=9200
 
-kubectl expose deployment elasticsearch --type=LoadBalance
+kubectl expose deployment elasticsearch --type=LoadBalancer
 
 minikube service elasticsearch
 
